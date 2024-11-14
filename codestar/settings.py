@@ -27,10 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-taylajball-djangoblog-l1dc4673itn.ws.codeinstitute-ide.net',
-                'tayla-django-blog-1316a7f0b40c.herokuapp.com']
+ALLOWED_HOSTS = ['8000-taylajball-djangoblog-z4pi6jq2qj5.ws.codeinstitute-ide.net',
+                'tayla-django-blog-1316a7f0b40c.herokuapp.com',]
 
 
 # Application definition
